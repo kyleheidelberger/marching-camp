@@ -11,7 +11,7 @@
 <body>
 <nav id="navbar" class="navbar navbar-light navbar-expand-lg">
     <a class="navbar-brand" href="#">
-            <img src="images/mac_logo.png"  alt="">
+            <img src="images/mac_logo.png"  class="img-fluid" alt="">
           </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,10 +37,10 @@
 <div class="container-fluid" data-spy="scroll" data-target="#navbar" data-offset="0">
     <div class="row justify-content-center align-items-center bg-light shadow p-5">
         <div class="col-sm text-center">
-            <h1 class="display-3 font-weight-normal"><strong>Mid-Atlantic Marching Band Camps</strong></h1>
-            <h2 class="text-uppercase">Now in its 43rd year</h2>
+            <h1 class="display-4 font-weight-normal"><strong>Mid-Atlantic Marching Band Camps</strong></h1>
+            <h2 class="">NOW IN ITS 43<sup>rd</sup> YEAR</h2>
             <p class="lead font-weight-normal">The Best Way to Get a Jump on the Fall Marching Season!</p>
-            <a class="btn btn-lg btn-outline-primary" href="#">Enroll Now</a>
+            <a class="btn btn-lg btn-primary" id="top-enroll-btn" href="mailto:barbara@midatlanticcamps.gmail.com">Enroll Now</a>
         </div>
         
         <div class="col-sm text-right">
@@ -51,16 +51,16 @@
     
     <div class="row dates-div bg-primary text-white shadow p-5">
         <div class="dates container justify-content-center align-items-center">
-            <h2 class="display-2"><strong>Tuesday, July 28, 2020</strong></h2>
+            <h2 class="display-4"><strong>Tuesday, July 28, 2020</strong></h2>
             <h2 class="display-2"><strong>-</strong></h2>
-            <h2 class="display-2"><strong>Saturday, August 1, 2020</strong></h2>
+            <h2 class="display-4"><strong>Saturday, August 1, 2020</strong></h2>
         </div>
     </div>
 
     <div class="row includes-list-div justify-content-center align-items-center p-5">
-        <div class="enroll">
+        <div class="enroll align-items-center">
         <h2 id="about">About the Camp</h2>
-        <ul class="list">The 2020 Mid-Atlantic Camp Session Includes:
+        <ul class="list"><strong>The 2020 Mid-Atlantic Camp Session Includes:</strong>
             <li class="list-item">Four nights lodging in air-condition dormitories</li>
             <li class="list-item">12 meals in the Franklin Dining Hall</li>
             <li class="list-item">Accident Insurance for every Student, Chaperone, and Band Director</li>
@@ -93,20 +93,39 @@
     </div>
 
     <div class="row contact-div shadow p-5">
-        <div class="col-sm">
+        <div class="col-sm text-center">
             <h2 id="contact" class="contact-h2"><strong>Contact Us</strong></h2>
-            <p>Our 2020 Camp will be held at:
-                Ferrum College
-                215 Ferrum Mountain Rd, Ferrum, VA 24088</p>
+            <p>Our 2020 Camp will be held at:</p>
+            <p>Ferrum College</p>
+            <p>215 Ferrum Mountain Rd,</p>
+            <p>Ferrum, VA 24088</p>
+            
+            <hr>
+            
             <p>For more information or to enroll, contact:</p>
+            <p>Barbara Dougherty, Camp Administrator</p>
+
+            
+            <p> 
+                            <a href="mailto:Barbara@
+                            midatlanticcamps.gmail.com"><img src="images/envelope.svg" alt="envelope" width="64" height="64" title="Email"> Email</a>
+            </p>
+            <p id="email">Barbara@midatlanticcamps.gmail.com</p>
+            
+            
             <p>
-                Barbara Dougherty, Camp Administrator
-                Barbara@midatlanticcamps.gmail.com
-                804-370-2664</p>
+                <a href="tel:804-370-2664"><img src="images/phone.svg" alt="phone" width="64" height="64" title="Call now">Call</a>
+            </p>
+            <p>804-370-2664</p>
+
+            <hr>
                 
-                <p>John D. Savage, Owner
-                Mid-Atlantic Camps, Inc.</p>
+            <p>John D. Savage, Owner</p>
+            <p>Mid-Atlantic Camps, Inc.</p>
         </div>
+        
+        <hr>
+
         <div col class="col-sm map-responsive">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821317.6541306693!2d-80.0229407783124!3d36.475143893867795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884d7e8f688fffff%3A0xfc0dfd2232c38418!2s215%20Ferrum%20Mountain%20Rd%2C%20Ferrum%2C%20VA%2024088!5e0!3m2!1sen!2sus!4v1578933239287!5m2!1sen!2sus" width="1100" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
@@ -114,7 +133,7 @@
 </div>
 </div>
 
-<footer class="footer fixed-bottom text-center bg-white">©2020 by Mid-Atlantic Camps, Inc.</footer>
+<footer class="footer fixed-bottom text-center bg-white"><strong>©2020 by Mid-Atlantic Camps, Inc.</strong></footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
